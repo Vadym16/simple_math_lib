@@ -77,3 +77,9 @@ TEST_F(MathLibTestFixture, GreatestCommonDivider)
 {
     EXPECT_EQ(MathLib::GCD(10, 6), 2);
 }
+
+TEST_F(MathLibTestFixture, drieangle){
+    EXPECT_EQ(MathLib::drieangle(50, 20), 110);
+    EXPECT_EQ(MathLib::drieangle(80, 80), 20);
+    EXPECT_EQ(MathLib::drieangle(100, 40), 40);
+}

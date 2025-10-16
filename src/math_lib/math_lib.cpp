@@ -42,5 +42,9 @@ namespace MathLib
 		if (b == 0) return a;
 		return GCD(b, a % b);
 	}
+
+    int drieangle(int a, int b){
+        return (180 - (a + b));
+    }
 }
 
